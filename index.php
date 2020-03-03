@@ -1,18 +1,17 @@
 <?php ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Index</title>
-        <div>
-            SALUT LES POTES
-        </div>
-    <a href="SignIN.php"><button type="button"> Connexion </button></a>
-    </form>
-
+    <title>TD 1</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
+<div id="damier"></div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="map.js"></script>
 </body>
 </html>
