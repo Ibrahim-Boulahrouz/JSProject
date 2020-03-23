@@ -8,12 +8,16 @@
 	</head>
 	<body>
 		<header>
-			<div id="dices"> salut c moi jean jack ]</div>
+			<div id="dices"> </div>
 
-			<div id="createDice">salut c moi jeak </div>
-
+			<div id="createDice"> </div>
 		</header>
+		<div id="myDice"> </div>
 
+		<div id="board"> </div>
+		<div id="rollTheDice">
+			<p > Roll your dice ! </p>
+		</div>
 
 
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
