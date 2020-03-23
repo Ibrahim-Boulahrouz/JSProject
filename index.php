@@ -2,16 +2,21 @@
 
 <!DOCTYPE html>
 <html>
-<head>
-    <title>TD 1</title>
-    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
+	<head>
+		<title>ON TEST</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div id="dices"> salut c moi jean jack</div>
 
-<div id="damier"></div>
+			<div id="createDice">salut c moi jeak </div>
 
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="map.js"></script>
-</body>
+		</header>
+
+
+
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script src=""></script>
+	</body>
 </html>
