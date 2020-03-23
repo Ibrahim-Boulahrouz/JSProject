@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 <html>
-	<link rel="stylesheet" href="public/style/style.css">
+	<link rel="stylesheet" href="style.css">
 	<head>
 		<title>ON TEST</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
