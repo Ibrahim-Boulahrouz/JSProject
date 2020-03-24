@@ -6,7 +6,7 @@ $obj->success = false;
 $obj->message = "Validé !";
 
 try {
-    $dsn = 'mysql:host=mysql-ibrahim-boulahrouz.alwaysdata.net;dbname=ibrahim-boulahrouz_db';
+    $dsn = 'mysql:host=mysql-ibrahim-boulahrouz.alwaysdata.net ;dbname=ibrahim-boulahrouz_db';
     $bdd = new PDO($dsn, '189617', 'IBrahim123-=');
 } catch (Exception $e) {
     die('Erreur : ' . $e->getMessage()); // pas sécurisé
