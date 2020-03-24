@@ -3,7 +3,7 @@ session_start();
 
 $obj = new stdClass();
 $obj->success = false;
-$obj->message = "Valide !";
+$obj->message = "salut!";
 
 try {
     $dsn = 'mysql:host=localhost;dbname=rollfxnz_db;charset=utf8';
