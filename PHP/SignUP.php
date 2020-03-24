@@ -33,7 +33,7 @@ if(isset($_GET['username'])) {
                     $rePassword = sha1($_GET['rePassword']);
 
                     if($password == $rePassword) {
-                        $reponse = $bdd->prepare('INSERT INTO user(username, email, password)
+                        $reponse = $bdd->prepare('INSERT INTO user(pseudo, email, password)
                                     VALUES (:username, :email, :password)');
 
                         $reponse->execute(array(':username' => $_GET['username'],
@@ -63,3 +63,4 @@ header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');
 header('Content-type: application/json');
 echo json_encode($obj);
 echo json_last_error_msg();
+var_dump($obj);
