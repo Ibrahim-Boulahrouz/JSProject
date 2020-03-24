@@ -6,4 +6,3 @@ deployment:
     - /bin/cp -R JS $DEPLOYPATH
     - /bin/cp -R PHP $DEPLOYPATH
     - /bin/cp index.php $DEPLOYPATH
-	- /bin/cp style.css $DEPLOYPATH

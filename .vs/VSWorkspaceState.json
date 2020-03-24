@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\img",
+    "\\JS",
+    "\\PHP"
   ],
-  "SelectedNode": "\\onabesoindajax.php",
+  "SelectedNode": "\\PHP\\SignUP.php",
   "PreviewInSolutionExplorer": false
 }
