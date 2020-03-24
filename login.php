@@ -1,16 +1,13 @@
 <?php
-<?php
 session_start();
-
-$idUser = 0;
 
 $obj = new stdClass();
 $obj->success = false;
 $obj->message = "Mauvais identifiant ou mot de passe";
 
 try {
-    $dsn = 'mysql:host=localhost;dbname=animtrqe_animefood';
-    $bdd = new PDO($dsn, 'animtrqe_access', 'Jaimelespates13200@');
+    $dsn = 'mysql:host=localhost;dbname=ibrahim-boulahrouz_db';
+    $bdd = new PDO($dsn, '189617', 'IBrahim123-=');
 } catch (Exception $e) {
     die('Erreur : ' . $e->getMessage()); // pas sécurisé
 }
