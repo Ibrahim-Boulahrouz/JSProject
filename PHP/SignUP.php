@@ -33,7 +33,7 @@ if(isset($_GET['username'])) {
                     $rePassword = sha1($_GET['rePassword']);
 
                     if($password == $rePassword) {
-                        $reponse = $bdd->prepare('INSERT INTO user(pseudo, email, password)
+                        $reponse = $bdd->prepare('INSERT INTO user(username, email, password)
                                     VALUES (:username, :email, :password)');
 
                         $reponse->execute(array(':username' => $_GET['username'],
