@@ -11,7 +11,7 @@
 		<div>
 			<h1>Register</h1> 
 			<p id="message"></p>
-			<form id="sign" method="GET" action="PHP/signUp.php">
+			<form id="sign" method="GET" action="PHP/SignUP.php">
 				<input type="text" name="username" placeholder="Pseudo">
 				<input type="email" name="email" placeholder="Email">
 				<input type="password" name="password" placeholder="Mot de passe">
