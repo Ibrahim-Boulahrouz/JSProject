@@ -6,7 +6,7 @@ $obj->success = false;
 $obj->message = "Mauvais identifiant ou mot de passe";
 
 try {
-    $dsn = 'mysql:host=localhost;dbname=rollfxnz_db';
+    $dsn = 'mysql:host=localhost;dbname=rollfxnz_db;charset=utf8';
     $bdd = new PDO($dsn, 'rollfxnz_me', 'maximelepb');
 } catch (Exception $e) {
     die('Erreur : ' . $e->getMessage()); // pas sécurisé
