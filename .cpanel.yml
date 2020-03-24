@@ -5,4 +5,5 @@ deployment:
     - /bin/cp -R img $DEPLOYPATH
     - /bin/cp -R JS $DEPLOYPATH
     - /bin/cp -R PHP $DEPLOYPATH
+	- /bin/cp -R css $DEPLOYPATH
     - /bin/cp index.php $DEPLOYPATH
