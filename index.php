@@ -11,7 +11,7 @@
 		<div>
 			<h1>Register</h1> 
 			<p id="message"></p>
-			<form id="sign" method="GET" action="signUp.php">
+			<form id="sign" method="GET" action="PHP/signUp.php">
 				<input type="text" name="username" placeholder="Pseudo">
 				<input type="email" name="email" placeholder="Email">
 				<input type="password" name="password" placeholder="Mot de passe">
@@ -37,7 +37,7 @@
 			<p id="result"></p>
 		</div>
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-		<script src="main.js"></script>
+		<script src="JS/main.js"></script>
 	</body>
 
 </html>
