@@ -3,7 +3,7 @@ session_start();
 
 $obj = new stdClass();
 $obj->success = false;
-$obj->message = "Validé !";
+$obj->message = "Valide !";
 
 try {
     $dsn = 'mysql:host=localhost;dbname=rollfxnz_db;charset=utf8';
@@ -61,6 +61,6 @@ if(isset($_GET['username'])) {
 header('Cache-Control: no-cache, must-revalidate');
 header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');
 header('Content-type: application/json');
-echo json_encode($obj,JSON_UNESCAPED_UNICODE);
+echo json_encode($obj);
 echo json_last_error_msg();
 var_dump($obj);
