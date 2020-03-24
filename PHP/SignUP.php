@@ -6,7 +6,7 @@ $obj->success = false;
 $obj->message = "Validé !";
 
 try {
-    $dsn = 'mysql:host=localhost;dbname=rollfxnz_db;charset=utf8';
+    $dsn = 'mysql:host=localhost;dbname=rollfxnz_db;charset=UTF-8';
     $bdd = new PDO($dsn, 'rollfxnz_me', 'maximelepb');
 } catch (Exception $e) {
     die('Erreur : ' . $e->getMessage()); // pas sécurisé
