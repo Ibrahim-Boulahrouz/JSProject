@@ -4,7 +4,7 @@
 <html>
 	<head>
 		<title>ON TEST</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="JS_css/style.css">
 		<link href="https://fonts.googleapis.com/css?family=MedievalSharp&display=swap" rel="stylesheet">
 	</head>
 	<body>
