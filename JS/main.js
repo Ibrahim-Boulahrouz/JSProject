@@ -4,7 +4,7 @@
 		$(".des").click(function() {
 			let object = $(this);
 			$.ajax({
-				url: '../PHP/getDice.php',
+				url: 'getDice.php',
 				method: 'GET',
 				data: {
 					"diceId" : $(this).attr("id")
