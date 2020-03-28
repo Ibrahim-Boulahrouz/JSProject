@@ -23,16 +23,12 @@
 		 $(".register").click(function() {
             if(signStatus === "open") {
                 signStatus = "close";
-                $("#sign").css("right", "0");
-                $("#signFormDiv").css("display", "block");
+                $("#decoreco").css("height", "0");
             }
             else {
-                signStatus = "open";
+                logSignStatus = "open";
                 $(".message").text('');
-                $("#logSign").css("right", "-18rem");
-                $("#formContent").remove();
-                $("#signFormDiv").css("display", "none");
-                $("#logFormDiv").css("display", "none");
+                $("#decoreco").css("height", "auto");
             }
         });
 

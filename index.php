@@ -8,7 +8,7 @@
 		<link href="https://fonts.googleapis.com/css?family=MedievalSharp&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<div>
+		<div id="decoreco">
 			<h1>Register</h1> 
 			<p id="message"></p>
 			<form class="form" id="sign" method="GET" action="PHP/SignUP.php">
@@ -18,14 +18,15 @@
 				<input type="password" name="rePassword" placeholder="Encore le mot de passe">
 				<input type="submit" content="Submit">
 			</form>
+			<h2>Log In</h2>
+			<p id="message"></p>
+			<form class="form" id="logForm" method="POST" action="PHP/login.php">
+			<input type="text" name="username" placeholder="Pseudo">
+			<input type="password" name="password" placeholder="Password">
+			<input type="submit" content="Submit">
+			</form>
 		</div>
-		<h2>Connexion</h2>
-<p id="message"></p>
-<form class="form" id="logForm" method="POST" action="PHP/login.php">
-    <input type="text" name="username" placeholder="Pseudo">
-    <input type="password" name="password" placeholder="Password">
-    <input type="submit" content="Submit">
-</form>
+		
 			
 		<header>
 			<div id="dices">

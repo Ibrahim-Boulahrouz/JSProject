@@ -72,3 +72,8 @@ input {
     border-radius: 0.3rem;
     border-style: none;
 }
+
+#decoreco{
+	height : 0;
+	transition-duration: 1s;
+}
