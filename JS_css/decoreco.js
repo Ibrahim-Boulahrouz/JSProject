@@ -1,9 +1,7 @@
 (function () {
 	"use strict";
     $(() => {
-		$("#register").click(function() {
-			
-			
+		$("#register").click(function() {	
 		})
 		$('.form').submit(function () {
             $.ajax({
@@ -20,7 +18,7 @@
             }).fail(function () {
                 console.error('Une erreur critique est arrivée.');
             });
-            return false;
+            
         });
 
 	})

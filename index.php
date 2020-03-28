@@ -21,7 +21,7 @@
 		</div>
 		<h2>Connexion</h2>
 <p id="message"></p>
-<form class="form" id="logForm" method="POST" action="model/login.php">
+<form class="form" id="logForm" method="POST" action="PHP/login.php">
     <input type="text" name="username" placeholder="Pseudo">
     <input type="password" name="password" placeholder="Password">
     <input type="submit" content="Submit">
