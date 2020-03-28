@@ -16,9 +16,9 @@
                     $('.message').text(data.message);
                 }
             }).fail(function () {
-                console.error('Une erreur critique est arrivée.');
+                console.error('Une erreur est arrive.');
             });
-            
+            return false;
         });
 
 	})
