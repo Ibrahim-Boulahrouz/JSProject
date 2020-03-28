@@ -47,9 +47,9 @@
         }).done(function (data) {
             if (data) {
                 $('.register').css('display', 'none');
-                $('.logOut').css('display', 'flex');
+                $('.logOut').css('display', 'block');
             } else {
-                $('.register').css('display', 'flex');
+                $('.register').css('display', 'block');
                 $('.logOut').css('display', 'none');
             }
         }).fail(function () {
