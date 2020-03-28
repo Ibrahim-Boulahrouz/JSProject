@@ -41,6 +41,20 @@
             });
         });
 
+		$.ajax({
+            url: 'PHP/isConnected.php',
+            method: 'GET'
+        }).done(function (data) {
+            if (data) {
+                $('.register').css('display', 'none');
+                $('.logOut').css('display', 'flex');
+            } else {
+                $('.register').css('display', 'flex');
+                $('.logOut').css('display', 'none');
+            }
+        }).fail(function () {
+            console.log('Connexion impossible !');
+        });
 
 	})
 })();
