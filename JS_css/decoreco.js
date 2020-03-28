@@ -20,5 +20,21 @@
             return false;
         });
 
+		 $(".register").click(function() {
+            if(signStatus === "open") {
+                signStatus = "close";
+                $("#sign").css("right", "0");
+                $("#signFormDiv").css("display", "block");
+            }
+            else {
+                signStatus = "open";
+                $(".message").text('');
+                $("#logSign").css("right", "-18rem");
+                $("#formContent").remove();
+                $("#signFormDiv").css("display", "none");
+                $("#logFormDiv").css("display", "none");
+            }
+        });
+
 	})
 })();

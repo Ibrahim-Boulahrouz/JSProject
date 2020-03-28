@@ -35,3 +35,40 @@ header{
 #buttons{
 	font-size : 1.5rem;
 }
+
+#logSign {
+    width: 18rem;
+    height: 25rem;
+    position: fixed;
+    top: 5rem;
+    right: -18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #242448;
+    z-index: 10;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    transition-duration: 0.5s;
+}
+
+#logFormDiv, #signFormDiv {
+      display: none;
+}
+#logFormDiv .message, #signFormDiv .message {
+        color: red;
+        font-size: 0.9rem;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+    margin: 0.3rem;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    border-style: none;
+}
