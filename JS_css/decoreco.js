@@ -1,8 +1,7 @@
 (function () {
 	"use strict";
     $(() => {
-		$("#register").click(function() {	
-		})
+		let signStatus = "close";
 		$('.form').submit(function () {
             $.ajax({
                 url : $(this).attr('action'),
@@ -20,17 +19,28 @@
             return false;
         });
 
-		 $(".register").click(function() {
+		$(".register").click(function() {
             if(signStatus === "open") {
                 signStatus = "close";
                 $("#decoreco").css("height", "0");
             }
             else {
-                logSignStatus = "open";
+                signStatus = "open";
                 $(".message").text('');
                 $("#decoreco").css("height", "auto");
-            }
+            }	
         });
+		$(".logOut").click(function() {
+            $.ajax({
+                url: 'PHP/logout.php',
+            }).done(function (data) {
+                window.location.href = './';
+                console.log('Deconnexion')
+            }).fail(function () {
+                console.log('Deconnexion impossible !');
+            });
+        });
+
 
 	})
 })();
