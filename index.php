@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>ON TEST</title>
+		<title>Roll The Dice</title>
 		<link rel="stylesheet" type="text/css" href="JS_css/style.css">
 		<link href="https://fonts.googleapis.com/css?family=MedievalSharp&display=swap" rel="stylesheet">
 	</head>
@@ -42,8 +42,8 @@
 			</div>
 			<div id="buttons">
 				<p class="register"> Register </p>
-				<p class="register"> Log In </p>
-				<p class="logOut"> Log Out</p>
+				<p class="register"> LogIn </p>
+				<p class="logOut"> LogOut</p>
 			</div>
 		</header>
 

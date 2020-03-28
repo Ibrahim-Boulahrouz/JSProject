@@ -33,9 +33,7 @@ header{
 }
 
 #buttons{
-	font-size: 1.5rem;
-	width: 3rem;
-
+	font-size : 1.5rem;
 }
 
 #logSign {
@@ -86,5 +84,4 @@ input {
 
 .logOut{
 	display: none;
-	width: 3rem;
 }
