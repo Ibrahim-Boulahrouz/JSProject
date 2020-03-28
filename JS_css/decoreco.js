@@ -10,13 +10,12 @@
                 data : $(this).serialize()
             }).done(function (data) {
                 if(data.success === true) {
-                   // window.location.href = 'index.php';
-				   console.log(data);
+                    window.location.href = 'index.php';
                 } else {
                     $('.message').text(data.message);
                 }
             }).fail(function () {
-                console.error('Une erreur est arrive.');
+                console.error('Une erreur est arrivee.');
             });
             return false;
         });
