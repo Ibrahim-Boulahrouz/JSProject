@@ -1,7 +1,12 @@
 body{
 	font-family: 'MedievalSharp', cursive;
 	margin : 0;
-	background-color: #595959;
+	background-color: #023059;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
 
 header{
@@ -9,18 +14,95 @@ header{
 	flex-direction : row;
 	align-items : center;
 	justify-content : center;
-	height : 10rem;
-	border : solid;
+	min-height : 8rem;
+	width: 100%;
+	color: white;
+	background-color: #0477BF;
+	box-shadow: 0px 0px 15px 0px black;
+}
+
+p {
+	margin: 0.5rem;
+}
+
+#buttons{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-size : 1.5rem;
+	min-width: 10rem;
+}
+
+.register {
+	background-color: #27B9F2;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	width: 6rem;
+	text-align: center;
+}
+
+#decoreco {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: -22.6rem;
+	transition-duration: 500ms;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #0477BF;
+	margin: 2rem;
+	padding: 1rem;
+	border-radius: 1rem;
+	box-shadow: 0px 0px 15px 0px black;
+}
+
+input {
+    margin: 0.3rem;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    border-style: none;
+	background-color: #023059;
+	color: white;
+}
+
+.logOut{
+	display: none;
+	background-color: #27B9F2;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	width: 6rem;
+	text-align: center;
+}
+
+.group {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 10rem;
+}
+
+.group p {
+	font-size: 1.5rem;
 }
 
 #dices{
 	display : flex;
 	justify-content : space-around;
-	width : 100%;
+	align-items: center;
+	flex-wrap: wrap;
+	width : 80%;
 }
 
 .des{
-	height : 8rem;
+	height : 6rem;
 }
 
 #board{
@@ -32,56 +114,9 @@ header{
 	font-size: 5rem;
 }
 
-#buttons{
-	font-size : 1.5rem;
-}
-
-#logSign {
-    width: 18rem;
-    height: 25rem;
-    position: fixed;
-    top: 5rem;
-    right: -18rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #242448;
-    z-index: 10;
-    border-top-left-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
-    transition-duration: 0.5s;
-}
-
-#logFormDiv, #signFormDiv {
-      display: none;
-}
-#logFormDiv .message, #signFormDiv .message {
-        color: red;
-        font-size: 0.9rem;
-}
-
-form{
-	display: flex;
-	flex-direction: column;
-}
-
-input {
-    margin: 0.3rem;
-    padding: 0.3rem;
-    border-radius: 0.3rem;
-    border-style: none;
-}
-
-#decoreco{
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	overflow: hidden;
-	height: 0;
-	transition-duration: 1s;
-}
-
-.logOut{
-	display: none;
+#result {
+	padding: 2rem;
+	border-radius: 2rem;
+	background-color: #0477BF;
+	box-shadow: 0px 0px 15px 0px black;
 }

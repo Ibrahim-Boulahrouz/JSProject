@@ -14,7 +14,7 @@
                     $('.message').text(data.message);
                 }
             }).fail(function () {
-                console.error('Une erreur est arrivee.');
+                console.error('Error.');
             });
             return false;
         });
@@ -22,12 +22,12 @@
 		$(".register").click(function() {
             if(signStatus === "open") {
                 signStatus = "close";
-                $("#decoreco").css("height", "0");
+                $("#decoreco").css("margin-top", "-22.6rem");
             }
             else {
                 signStatus = "open";
                 $(".message").text('');
-                $("#decoreco").css("height", "auto");
+                $("#decoreco").css("margin-top", "0");
             }	
         });
 		$(".logOut").click(function() {

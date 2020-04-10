@@ -4,8 +4,6 @@ session_start();
 $obj = new stdClass();
 $obj->success = false;
 
-
-
 if(!empty($_GET['diceId'])) {
 	if($_GET['diceId'] == 4){
 		$dice = rand(1,4);
