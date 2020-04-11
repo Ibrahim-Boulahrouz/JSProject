@@ -61,8 +61,25 @@
 			<p id="result">Roll a dice !</p>
 		</div>
 
+		<div id="blackjack">
+            <p id="BJ"> BlackJack </p>
+			<p id="game"> Start a game </p>
+            <p id="resultShow"></p>
+            <div id="score">
+                <p id="playerShow"></p>
+                <p id="bankShow"></p>
+            </div>
+            <div id="bjButtons">
+                <p id="draw"> Draw </p>
+                <p id="stop"> Stop </p>
+            </div>
+		</div>
+
+		
+
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 		<script src="JS_css/main.js"></script>
+		<script src="JS_css/blackjack.js"></script>
 		<script src="JS_css/decoreco.js"></script>
 	</body>
 

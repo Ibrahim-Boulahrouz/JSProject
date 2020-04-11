@@ -34,7 +34,7 @@ p {
 	min-width: 10rem;
 }
 
-.register {
+.register{
 	background-color: #27B9F2;
 	padding: 0.5rem;
 	border-radius: 0.5rem;
@@ -42,7 +42,7 @@ p {
 	text-align: center;
 }
 
-#decoreco {
+#decoreco{
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -81,12 +81,12 @@ input {
 	text-align: center;
 }
 
-.group {
+.group{
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	width: 10rem;
+	width: 11rem;
 }
 
 .group p {
@@ -99,10 +99,32 @@ input {
 	align-items: center;
 	flex-wrap: wrap;
 	width : 80%;
+
 }
 
 .des{
 	height : 6rem;
+	transition-duration: 0.2s;
+	border-radius: 1rem;
+	padding: 0.3rem;
+	margin: 0.3rem;
+}
+
+.des:hover {
+	background-color: #27B9F2;
+	transition-duration: 0.1s;
+}
+
+.double {
+	transition-duration: 0.2s;
+	border-radius: 1rem;
+	padding: 0.5rem;
+	margin: 0.3rem;
+}
+
+.double:hover {
+	background-color: #27B9F2;
+	transition-duration: 0.1s;
 }
 
 #board{
@@ -114,9 +136,64 @@ input {
 	font-size: 5rem;
 }
 
-#result {
+#result{
 	padding: 2rem;
 	border-radius: 2rem;
 	background-color: #0477BF;
 	box-shadow: 0px 0px 15px 0px black;
+}
+
+#BJ {
+	position: absolute;
+	margin-left: 12rem;
+	top: -0.5rem;
+	padding: 1rem;
+	padding-left: 5rem;
+	border-radius: 2rem;
+	background-color: #0477BF;
+	z-index: 0;
+}
+
+#blackjack{
+	position: absolute;
+	left: 0rem;
+	margin-top: 5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 20rem;
+	height: 20rem;
+	margin-left: -20rem;
+	background-color: #0477BF;
+	transition-duration: 0.7s;
+	font-size: 1.5rem;
+	box-shadow: 0px 0px 15px 0px black;
+	z-index: 1;
+}
+
+#game {
+	background-color: #023059;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+
+#score, #bjButtons {
+	display: none;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 90%;
+}
+
+#playerShow, #bankShow {
+	text-align: center;
+}
+
+#draw, #stop {
+	background-color: #023059;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
 }
